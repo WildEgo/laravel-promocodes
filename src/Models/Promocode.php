@@ -34,7 +34,8 @@ class Promocode extends Model
     protected $casts = [
         'is_disposable' => 'boolean',
         'data' => 'array',
-        'quantity' => 'integer'
+        'quantity' => 'integer',
+        'expires_at' => 'datetime',
     ];
 
     /**
